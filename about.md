@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### 소개
+* 2007년부터 게임 서버 프로그래머로 활동하고 있습니다.
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[rossheo@gmail.com](mailto:rossheo@gmail.com)
+### 참조 링크
+* [이전 블로그 npteam.net](http://www.npteam.net)
