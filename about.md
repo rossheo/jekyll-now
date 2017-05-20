@@ -17,6 +17,5 @@ published: true
 * C++, C#, MS-SQL, Docker
 
 ### 참조 링크
-* [RSS Feed](http://rossheo.com/feed.xml)
 * [GitHub Link](https://github.com/rossheo)
 * [이전 블로그 npteam.net](http://www.npteam.net)
