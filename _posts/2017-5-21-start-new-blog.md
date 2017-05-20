@@ -9,4 +9,4 @@ markdown 기반으로 text 기반의 정보 간단하게 블로깅 할 수 있�
 
 [prose.io](prose.io)와 github를 연동하면 md 파일을 간단히 편집할 수 있습니다.
 
-이전 블로그 : [npteam.net](www.npteam.net)
+이전 블로그 : [npteam.net](https://www.npteam.net)
