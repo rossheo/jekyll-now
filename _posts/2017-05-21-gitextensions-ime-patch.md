@@ -12,5 +12,5 @@ published: true
 - 위 코드를 수정하면 정상적으로 한글을 입력할 수 있습니다.
   ![GitExtensions IME 문제 수정]({{site.baseurl}}/assets/gitextensions_ime_problem_fixed.png)
 
-- [GitUI.7z 다운로드](http://rossheo.com/downloads/GitUI.7z) 압축을 풀고,
+- [2.49.03.GitUI.7z 다운로드](http://rossheo.com/downloads/2.49.03.GitUI.7z) 압축을 풀고,
   GitExtensions 설치 폴더에 GitUI.dll 파일을 덮어쓰기 합니다.
