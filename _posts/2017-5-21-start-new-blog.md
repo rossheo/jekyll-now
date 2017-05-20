@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## 블로그 시작
 
