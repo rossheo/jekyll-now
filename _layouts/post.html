@@ -7,7 +7,7 @@ published: true
   <h1 class="post-title">{{ page.title }}</h1>
 
   <span>
-    <span class="post-date" style="display:inline-block;">{{ page.date | date_to_string }}</span> |
+    <span class="post-date" style="display:inline-block;">{{ page.date | date: "%Y-%m-%d" }}</span> |
     {% for tag in page.tags %}
       <span class="codinfox-tag-mark">{{ tag }}</span>
     {% endfor %}
@@ -15,10 +15,6 @@ published: true
 
   <div class="entry">
     {{ content }}
-  </div>
-
-  <div class="date">
-    작성일 {{ page.date | date: "%Y-%m-%d" }}
   </div>
 
   <div class="related">
@@ -29,11 +25,11 @@ published: true
       <h3>
         <a href="{{ post.url }}">
           {{ post.title }}
-          <small>{{ post.date | date_to_string }}</small>
+          <small>{{ post.date | date: "%Y-%m-%d" }}</small>
         </a>
       </h3>
     </li>
-      {% endfor %}
+    {% endfor %}
   </ul>
   </div>
 
