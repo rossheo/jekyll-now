@@ -2,7 +2,7 @@
 published: true
 title: GitExtensions 한글 IME 패치
 comments: true
-category: misc
+category: opensource
 tags: git ime bugfix
 ---
 
