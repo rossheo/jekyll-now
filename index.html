@@ -16,10 +16,10 @@ published: true
       -->
       
       <div class="entry">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} - {{ post.excerpt }}</a>
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">더 읽기</a>
+      <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">더 읽기</a> -->
     </article>
   {% endfor %}
 </div>
