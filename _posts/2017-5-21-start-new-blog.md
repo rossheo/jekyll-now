@@ -3,6 +3,7 @@ published: true
 title: 블로그 시작
 comments: true
 category: notice
+tags: notice
 ---
 
 Github와 jekyll 기반의 새로운 블로그로 이전 하였습니다.
