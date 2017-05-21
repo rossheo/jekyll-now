@@ -1,6 +1,8 @@
 ---
 published: true
 ---
+# 블로그 시작
+
 ## 블로그 시작
 
 Github와 jekyll 기반의 새로운 블로그로 이전 하였습니다.
