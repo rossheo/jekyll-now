@@ -2,7 +2,6 @@
 published: true
 ---
 ---
-layout: post
 title: 블로그 시작
 ---
 
