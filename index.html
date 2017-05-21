@@ -10,7 +10,7 @@ published: true
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">더 읽기</a>
