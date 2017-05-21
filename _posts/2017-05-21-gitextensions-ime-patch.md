@@ -1,7 +1,7 @@
 ---
 published: true
+title: GitExtensions 한글 IME 패치
 ---
-## GitExtensions 한글 IME 패치
 
 - GitExtensions의 경우 다음과 같이 한글 IME가 깨지는 문제가 발생합니다.
  ![GitExtensions IME 문제]({{site.baseurl}}/assets/gitextensions_ime_problem.png)
