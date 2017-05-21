@@ -1,6 +1,9 @@
 ---
 published: true
 title: GitExtensions 한글 IME 패치
+comments: true
+category: misc
+tags: git ime bugfix
 ---
 
 - GitExtensions의 경우 다음과 같이 한글 IME가 깨지는 문제가 발생합니다.
