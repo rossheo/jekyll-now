@@ -4,8 +4,6 @@ comments: true
 category: linux
 tags: ssh ubuntu terminal
 ---
-## ubuntu에 SSH 터미널 설치하기
-
 - 처음 ubuntu를 설치하고 ssh 터미널을 설치하기 위해 다음과 같이 진행합니다.
   - `sudo apt-get update`
 
