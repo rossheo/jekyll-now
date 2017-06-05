@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 comments: true
 category: linux
 tags: ssh ubuntu terminal
