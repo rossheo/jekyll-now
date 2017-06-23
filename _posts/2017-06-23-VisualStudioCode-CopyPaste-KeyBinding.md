@@ -3,7 +3,7 @@ published: true
 comments: true
 category: keybinding
 tags: vscode visualstudio code vim
-title: VisualStudio Code Vim binding에 복사(CTRL+C) 붙여넣기(CTRL+V) 키 바인딩 추가하기
+title: VisualStudio Code에서 Vim 사용시 복사(CTRL+C) 붙여넣기(CTRL+V) 키 바인딩 추가하기
 ---
 ## 메뉴 이동
  * 파일 -> 기본 설정 -> 바로가기 키
