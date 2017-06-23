@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 comments: true
 category: keybinding
 tags: vscode visualstudio code vim
