@@ -47,7 +47,7 @@ tags: docker dns bind
 ** ![bind_007.png]({{site.baseurl}}/_posts/bind_007.png)
 * 정방향 영역 추가
 ** ![bind_008.png]({{site.baseurl}}/_posts/bind_008.png)
-* Name 서버 주소 추가
+* ns.rossheo.local 추가
 ** ![bind_009.png]({{site.baseurl}}/_posts/bind_009.png)
 ** ![bind_010.png]({{site.baseurl}}/_posts/bind_010.png)
 
