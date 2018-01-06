@@ -26,6 +26,7 @@ tags: docker dns bind
 ### Webmin에 로그인
 * 다음 주소로 Webmin에 로그인 합니다.(인증서가 없으므로 예외 설정을 추가합니다.)
 ** https://192.168.0.200:10000/
+** ![bind_001.png]({{site.baseurl}}/_posts/bind_001.png)
 
 
 ### 참조
