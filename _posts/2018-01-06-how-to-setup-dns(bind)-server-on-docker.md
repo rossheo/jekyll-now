@@ -50,6 +50,16 @@ tags: docker dns bind
 * ns.rossheo.local 추가
 ** ![bind_009.png]({{site.baseurl}}/_posts/bind_009.png)
 ** ![bind_010.png]({{site.baseurl}}/_posts/bind_010.png)
+* 추가된 주소 적용하기
+** ![bind_011.png]({{site.baseurl}}/_posts/bind_011.png)
+
+## 네트워크 어댑터에 DNS 주소 설정 및 DNS 접미사 추가
+* 네트워크 어댑터 설정
+** ![bind_012.png]({{site.baseurl}}/_posts/bind_012.png)
+* nslookup으로 dns 확인하기
+** ![bind_013.png]({{site.baseurl}}/_posts/bind_013.png)
+
+
 
 
 
