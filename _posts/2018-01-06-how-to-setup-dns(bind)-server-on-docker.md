@@ -10,7 +10,9 @@ published: false
 
 ### Docker 이미지 설치
 * Docker에서 Bind 서비스를 사용할 수 있는 이미지중에서 Web 관리 툴이 포함되어 있는 이미지를 다운로드 받습니다.
+	```
     docker pull sameersbn/bind:latest
+    ```
 
 ### 참조
 * http://www.damagehead.com/blog/2015/04/28/deploying-a-dns-server-using-docker/
