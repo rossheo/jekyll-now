@@ -1,5 +1,8 @@
 ---
 published: false
+comments: true
+category: docker
+tags: docker dns bind
 ---
 ## Docker로 DNS 서버 설치하기
 
