@@ -16,6 +16,13 @@ tags: docker dns bind
 	```
     docker pull sameersbn/bind:latest
     ```
+* Docker 이미지를 실행합니다.
+** HostIP가 192.168.0.200으로 설정하였습니다. 이 부분을 각자 환경에 맞게 수정하셔야 합니다.
+** Password는 Docker 설치후에 웹으로 로그인하여 변경합니다.
+	```
+    docker run -d --name=bind --dns=127.0.0.1 --publish=192.168.0.200:53:53/udp --publish=192.168.0.200:53:53/tcp --publish=192.168.0.200:10000:10000 --volume=/srv/docker/bind:/data --env='ROOT_PASSWORD=SecretPassword' sameersbn/bind:latest
+    ```
+
 
 ### 참조
 * http://www.damagehead.com/blog/2015/04/28/deploying-a-dns-server-using-docker/
