@@ -28,6 +28,9 @@ tags: docker dns bind
 ** [https://192.168.0.200:10000/](https://192.168.0.200:10000/)
 ** ![bind_001.png]({{site.baseurl}}/_posts/bind_001.png)
 ** 로그인 후 화면 초기화까지 약 2분정도 소요됩니다.
+* root 계정의 Password와 언어 설정을 변경하고 저장 후 F5(새로고침)을 실행합니다.
+** ![bind_002.png]({{site.baseurl}}/_posts/bind_002.png)
+
 
 
 ### 참조
