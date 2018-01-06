@@ -36,13 +36,17 @@ tags: docker dns bind
 ** ![bind_003.png]({{site.baseurl}}/_posts/bind_003.png)
 ** ![bind_004.png]({{site.baseurl}}/_posts/bind_004.png)
 
-
 ### 역방향 영역 추가(IP -> Domain name)
 * 새 마스터 영역 작성
 ** ![bind_005.png]({{site.baseurl}}/_posts/bind_005.png)
 * 역방향 영역 추가(도메인 이름 부분에 IP 마지막 부분을 제거하고 입력한다.)
 ** ![bind_006.png]({{site.baseurl}}/_posts/bind_006.png)
 
+## 정방향 영역 추가(Domain name -> IP)
+* 새 마스터 영역 작성
+** ![bind_007.png]({{site.baseurl}}/_posts/bind_007.png)
+* 정방향 영역 추가
+** ![bind_008.png]({{site.baseurl}}/_posts/bind_008.png)
 
 
 ### 참조
