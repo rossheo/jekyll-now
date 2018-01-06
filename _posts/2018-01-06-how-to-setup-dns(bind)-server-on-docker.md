@@ -31,6 +31,18 @@ tags: docker dns bind
 * root 계정의 Password와 언어 설정을 변경하고 저장 후 F5(새로고침)을 실행합니다.
 ** ![bind_002.png]({{site.baseurl}}/_posts/bind_002.png)
 
+### BIND DNS 서버 설정
+* 전달 및 전송에 외부 DNS 서버 주소 추가
+** ![bind_003.png]({{site.baseurl}}/_posts/bind_003.png)
+** ![bind_004.png]({{site.baseurl}}/_posts/bind_004.png)
+
+
+### 역방향 영역 추가(IP -> Domain name)
+* 새 마스터 영역 작성
+** ![bind_005.png]({{site.baseurl}}/_posts/bind_005.png)
+* 역방향 영역 추가(도메인 이름 부분에 IP 마지막 부분을 제거하고 입력한다.)
+** ![bind_006.png]({{site.baseurl}}/_posts/bind_006.png)
+
 
 
 ### 참조
