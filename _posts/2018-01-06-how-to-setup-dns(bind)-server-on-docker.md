@@ -23,6 +23,10 @@ tags: docker dns bind
     docker run -d --name=bind --dns=127.0.0.1 --publish=192.168.0.200:53:53 --publish=192.168.0.200:10000:10000 --volume=/srv/docker/bind:/data --env='ROOT_PASSWORD=SecretPassword' sameersbn/bind:latest
     ```
 
+### Webmin에 로그인
+* 다음 주소로 Webmin에 로그인 합니다.(인증서가 없으므로 예외 설정을 추가합니다.)
+** https://192.168.0.200:10000/
+
 
 ### 참조
 * http://www.damagehead.com/blog/2015/04/28/deploying-a-dns-server-using-docker/
