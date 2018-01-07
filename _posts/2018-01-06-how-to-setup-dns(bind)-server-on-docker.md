@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 comments: true
 category: docker
 tags: docker dns bind
