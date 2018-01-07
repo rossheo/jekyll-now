@@ -13,15 +13,14 @@ tags: docker dns bind
 
 ### Docker 이미지 설치
 * Docker에서 Bind 서비스를 사용할 수 있는 이미지중에서 Web 관리 툴이 포함되어 있는 이미지를 다운로드 받습니다.
-	```
     docker pull sameersbn/bind:latest
-    ```
+
 * Docker 이미지를 실행합니다.
 	* HostIP '192.168.0.200'를 기준으로 작성하였습니다. 이 부분을 각자 환경에 맞게 수정하셔야 합니다.
 	* Password는 Docker 설치후에 웹으로 로그인하여 변경합니다.
-	```
-    docker run -d --name=bind -p=192.168.0.200:53:53/tcp -p=192.168.0.200:53:53/udp -p=10000:10000 --volume=/srv/docker/bind:/data --env='ROOT_PASSWORD=SecretPassword' sameersbn/bind:latest
-    ```
+    
+      docker run -d --name=bind -p=192.168.0.200:53:53/tcp -p=192.168.0.200:53:53/udp -p=10000:10000 --volume=/srv/docker/bind:/data --env='ROOT_PASSWORD=SecretPassword' sameersbn/bind:latest
+
 
 ### Webmin에 로그인
 * 다음 주소로 Webmin에 로그인 합니다.(인증서가 없으므로 예외 설정을 추가합니다.)
