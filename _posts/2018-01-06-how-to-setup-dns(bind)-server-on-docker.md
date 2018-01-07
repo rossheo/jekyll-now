@@ -26,11 +26,10 @@ tags: docker dns bind
 ### Webmin에 로그인
 * 다음 주소로 Webmin에 로그인 합니다.(인증서가 없으므로 예외 설정을 추가합니다.)
 	* [https://192.168.0.200:10000/](https://192.168.0.200:10000/)
-	![bind_001.png]({{site.baseurl}}/assets/bind_001.png)
+	* ![bind_001.png]({{site.baseurl}}/assets/bind_001.png)
 	* 로그인 후 화면 초기화까지 약 2분정도 소요됩니다.
-
 * root 계정의 Password와 언어 설정을 변경하고 저장 후 F5(새로고침)을 실행합니다.
-	![bind_002.png]({{site.baseurl}}/assets/bind_002.png)
+	* ![bind_002.png]({{site.baseurl}}/assets/bind_002.png)
 
 ### BIND DNS 서버 설정
 * 전달 및 전송에 외부 DNS 서버 주소 추가
