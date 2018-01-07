@@ -31,12 +31,14 @@ tags: docker dns bind
 * root 계정의 Password와 언어 설정을 변경하고 저장 후 F5(새로고침)을 실행합니다.
 	* ![bind_002.png]({{site.baseurl}}/assets/bind_002.png)
 
+
 ### BIND DNS 서버 설정
 * 전달 및 전송에 외부 DNS 서버 주소 추가
 	* ![bind_003.png]({{site.baseurl}}/assets/bind_003.png)
 	* ![bind_004.png]({{site.baseurl}}/assets/bind_004.png)
 
-## ACL 추가 및 영역 기본값 추가
+
+### ACL 추가 및 영역 기본값 추가
 * ACL(접근 제어 목록) 주소 추가
 	* ![bind_020.png]({{site.baseurl}}/assets/bind_020.png)
 	* ![bind_021.png]({{site.baseurl}}/assets/bind_021.png)
@@ -44,13 +46,15 @@ tags: docker dns bind
 	* ![bind_022.png]({{site.baseurl}}/assets/bind_022.png)
 	* ![bind_023.png]({{site.baseurl}}/assets/bind_023.png)
 
+
 ### 역방향 영역 추가(IP -> Domain name)
 * 새 마스터 영역 작성
 	* ![bind_005.png]({{site.baseurl}}/assets/bind_005.png)
 * 역방향 영역 추가(도메인 이름 부분에 IP 마지막 부분을 제거하고 입력한다.)
 	* ![bind_006.png]({{site.baseurl}}/assets/bind_006.png)
 
-## 정방향 영역 추가(Domain name -> IP)
+
+### 정방향 영역 추가(Domain name -> IP)
 * 새 마스터 영역 작성
 	* ![bind_007.png]({{site.baseurl}}/assets/bind_007.png)
 * 정방향 영역 추가
@@ -61,13 +65,30 @@ tags: docker dns bind
 * 추가된 주소 적용하기
 	* ![bind_011.png]({{site.baseurl}}/assets/bind_011.png)
 
-## 네트워크 어댑터에 DNS 주소 설정 및 DNS 접미사 추가
+
+### 네트워크 어댑터에 DNS 주소 설정 및 DNS 접미사 추가
 * 네트워크 어댑터 설정
 	* ![bind_012.png]({{site.baseurl}}/assets/bind_012.png)
 * nslookup으로 dns 확인하기
 	* ![bind_013.png]({{site.baseurl}}/assets/bind_013.png)
 
-## nginx.rossheo.local 접속
+
+### nginx.rossheo.local 도메인 추가(정방향, 역방향 추가)
+* 정방향 추가
+	* ![bind_025.png]({{site.baseurl}}/assets/bind_025.png)
+    * ![bind_026.png]({{site.baseurl}}/assets/bind_026.png)
+    * ![bind_027.png]({{site.baseurl}}/assets/bind_027.png)
+
+* 역방향 추가
+	* ![bind_028.png]({{site.baseurl}}/assets/bind_028.png)
+    * ![bind_029.png]({{site.baseurl}}/assets/bind_029.png)
+    * ![bind_030.png]({{site.baseurl}}/assets/bind_030.png)
+
+* 추가한 도메인 적용
+	* ![bind_031.png]({{site.baseurl}}/assets/bind_031.png)
+
+
+### nginx.rossheo.local 접속
 * nginx.rossheo.local(192.168.0.4)
 	* ![bind_024.png]({{site.baseurl}}/assets/bind_024.png)
 
