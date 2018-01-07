@@ -67,6 +67,10 @@ tags: docker dns bind
 * nslookup으로 dns 확인하기
 ** ![bind_013.png]({{site.baseurl}}/_posts/bind_013.png)
 
+## nginx.rossheo.local 접속
+* nginx.rossheo.local(192.168.0.4)
+** ![bind_024.png]({{site.baseurl}}/_posts/bind_024.png)
+
 
 ### 참조
 * http://www.damagehead.com/blog/2015/04/28/deploying-a-dns-server-using-docker/
