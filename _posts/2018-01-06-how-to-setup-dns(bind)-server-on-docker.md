@@ -13,6 +13,7 @@ tags: docker dns bind
 
 ### Docker 이미지 설치
 * Docker에서 Bind 서비스를 사용할 수 있는 이미지중에서 Web 관리 툴이 포함되어 있는 이미지를 다운로드 받습니다.
+
 	```docker pull sameersbn/bind:latest```
 
 * Docker 이미지를 실행합니다.
